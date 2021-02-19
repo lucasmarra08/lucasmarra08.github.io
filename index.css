@@ -22,8 +22,8 @@ header{
 }
 
 a {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
     padding: 10px;
     border-radius: 15px;
     text-decoration: none;
@@ -48,7 +48,7 @@ a:hover{
 }
 
 footer {
-    position: relative;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     bottom:0;
