@@ -1,0 +1,152 @@
+:root {
+    --red: rgba(171, 11, 11, 0.9);
+    --black: #282526;
+    --white: #EBEBEB;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+
+}
+
+body {
+    background-color: var(--red);
+}
+
+header {
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 6rem;
+}
+
+header .title {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+header .links a {
+    text-decoration: none;
+    background-color: var(--white);
+    color: var(--black);
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--white);
+    border-radius: 8px;
+    margin-left: 1rem;
+    transition: 0.2s;
+    font-size: 1rem;
+}
+
+header .links a:hover {
+    text-decoration: none;
+    background-color: var(--red);
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+
+section {
+    background-color: var(--white);
+    border-radius: 15px;
+    margin: 0.7rem 10rem;
+    color: var(--black);
+}
+
+section spam {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.25rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+section .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 5rem 2rem 5rem;
+    font-size: 1.15rem;
+}
+
+section .project-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 3rem 5rem 0 5rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+section .project-icons .icons {
+    background-color: #C4C4C4;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+    transition: 0.2s;
+}
+
+section .project-icons a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem;
+    text-decoration: none;
+    color: var(--black);
+}
+
+section .project-icons .icons:hover{
+    filter: brightness(0.9);
+}
+
+section .project-icons img {
+    width: 5rem;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+section .project-icons .icons .html {
+    width: 4.5rem;
+    border-radius: 8px;
+}
+
+section .project-icons .icons spam {
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-bottom: 0;
+}
+
+footer {
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 9rem 0.7rem 6rem;
+}
+
+footer spam {
+    color: var(--white);
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+footer img {
+    width: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    background-color: #c4c4c486;
+    border-radius: 100px;
+    padding: 0.3rem;
+    transition: 0.2s;
+}
+
+footer a:hover {
+    background-color: var(--white);
+}
